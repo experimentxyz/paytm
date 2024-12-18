@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.clsnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+
+}
+
+.logoimg {
+    width: 80px;
+}
+
+.firsec {
+    width: 96%;
+    height: 30em;
+    background: #00baf24e;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*  */
+
+li {
+    list-style: none;
+}
+
+.logoimg1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+}
+
+.boycls {
+    display: flex;
+    width: 60px;
+    height: 40px;
+    background: #ffffff;
+    align-items: center;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.cartoonlogo {
+    width: 30px;
+    height: 30px;
+}
+
+.custom-select{
+    /* width: 50%; */
+    display: flex;
+}
+
+select {
+    border: none;
+    -webkit-appearance: none;
+    /* WebKit-based browsers */
+    -moz-appearance: none;
+    /* width: 100%; */
+    background: none;
+}
+.onsel{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    /* margin: auto; */
+}
+
+.sel{
+    /* display: flex; */
+    font-weight: 700;
+    width: 40%;
+    /* margin: auto; */
+    /* padding:0 0px 0 35px; */
+    text-overflow: ellipsis;
+    
+    
+}
+.right-1{
+    /* padding:0 0px 0 0px; */
+    /* margin: 0 25px 0 0; */
+}
+.sel1{
+    display: flex;
+    font-weight: 700;
+    width: 40%;
+    text-overflow: ellipsis;
+    
+    
+}
+
+
+
+
+
